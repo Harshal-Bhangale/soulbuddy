@@ -106,7 +106,7 @@ SoulBuddy is an AI-driven platform designed to provide **personalized spiritual 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/soulbuddy.git
+git clone git@github.com:Harshal-Bhangale/soulbuddy.git
 
 2. Install backend dependencies:
 cd backend
