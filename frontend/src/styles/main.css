@@ -1,0 +1,44 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1020;
+}
+
+body {
+  background: var(--bg);
+  color: #e5e7eb;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020617;
+  background-image: radial-gradient(circle at 1px 1px, #1e293b 1px, transparent 0);
+  background-size: 20px 20px;
+  color: #f8fafc;
+}
+
+/* Custom modern scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e293b;
+  border-radius: 20px;
+}
+
+/* Base transition for interactive elements */
+button,
+a {
+  transition: all 0.2s ease-in-out;
+}

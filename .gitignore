@@ -1,0 +1,16 @@
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store
+
+# Env
+.env
+.env.*
+
+# Build
+/dist
+/build
+/public/bundle.js
+/frontend/public/bundle.js
